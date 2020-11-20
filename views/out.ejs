@@ -1,0 +1,35 @@
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Com.Tasks of <%= TheDay %> </title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  </head>
+  <body>
+    <div  id="heading">
+      <h1 > <%= TheDay %> your completed tasks</h1>
+    </div>
+<div class="box">
+  <%if(newReport.length>1){%>
+<div class="taskcom">
+
+    <p>  <%= newReport.length %> tasks completed</p>
+  <%}else{%>
+<p>  <%= newReport.length %> task completed</p>
+    <%}%>
+<% for(var i=0;i<newReport.length;i++) { %>
+<form action="/thank"  method="post">
+  <input type="hidden" name="sd" value="<%= TheDay %>"/>
+  <p>  <%= newReport[i].helper %>
+  <button type="submit" name="delid" value="<%= newReport[i]._id %>" >Delete</button></p>
+
+</form>
+<% } %>
+</div>
+<form action="/<%=TheDay%>">
+  <button id="showbtnbth" type="submit" name="sender" value="<%=TheDay%>" >Back to Home</button>
+</form>
+  </body>
+

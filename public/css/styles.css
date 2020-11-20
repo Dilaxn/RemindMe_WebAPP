@@ -1,0 +1,180 @@
+@@media only screen and (max-width:1000px) {
+
+}
+
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+html {
+  background-color: #E4E9FD;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("xxxx.JPEG");
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+word-break: break-all;
+  max-width: 600px;
+  margin: auto;
+  background-color:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),#000;
+
+  border-radius: 5px;
+  box-shadow: 15px 15px 25px -15px rgba(0, 0, 0, 0.7);
+}
+
+
+.boxsub {
+word-break: break-all;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),#000;
+
+  border-radius: 5px;
+  box-shadow: 15px 15px 25px -15px rgba(0, 0, 0, 0.7);
+}
+
+.subd{
+  max-width: 900px;
+margin: auto;
+}
+#heading {
+  margin:auto;
+  text-align: center;
+}
+#sendbtn{
+  background-color:#be9b7b;
+  color:  white;
+  margin: auto;
+  text-align: center;
+}
+
+.item {
+
+
+
+
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #white;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color:white;
+opacity: 1;
+}
+h2{
+  color: white;
+}
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+#dd{
+  float: right;
+  margin-right: 20px;
+  }
+div button{
+
+  padding-right: 10px;
+}
+
+hr{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  color:white;
+  opacity: 0.7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+#showhr{
+  width: 30%;
+}
+button {
+
+border-radius: 5px;
+  border-color:black;
+  background-color: #be9b7b;
+  color:white ;
+  font-size: 17px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-width: 1;
+
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: 15px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  color: white;
+}
+#showbtn{
+  background-color: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),#000;
+font-size: 24px;
+  color:black ;
+  font-family:Georgia;
+}
+#showbtnbth{
+  background-color: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),#000;
+font-size: 24px;
+  color:black ;
+  font-family:Georgia;
+  margin-left: 25%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
